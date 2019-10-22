@@ -1,0 +1,6 @@
+<p>exercice3 works!</p>
+
+<p *ngIf="statut">p1</p>
+<p *ngIf="!statut">p2</p>
+
+<button (click)="this.statut = !this.statut">{{ statut }}</button>
